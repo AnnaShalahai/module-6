@@ -1,0 +1,380 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Roboto, Arial, Sans-Serif;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 18px;
+    margin: 0 auto;
+    width: 1201px;
+}
+
+
+
+.logo {
+    font-family: Montserrat;
+    color: rgb(149, 225, 211);
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+          
+}
+.main-header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between; 
+}
+
+.main-menu {
+   display: flex; 
+       padding: 0;
+    margin: 0;
+}
+
+.item {
+    color: rgb(149, 225, 211);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.item a {
+    color: rgb(149, 225, 211);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.alarm-item {
+    display: flex;
+}
+
+.alarm {
+    width: 31px;
+    height: 32px;
+}
+
+.about:hover {
+    color: rgb(243, 129, 129);
+}
+
+.about:hover::after {
+    display: block;
+    width: 50px;
+    height: 3px;
+    content: '';
+    background-color: rgb(243, 129, 129);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.we {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-size: 21px;
+    font-style: italic;
+    font-family: lobster;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.we::first-letter {
+    text-transform: uppercase;
+}
+
+.services {
+    font-family: Montserrat;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.services::after {
+    display: block;
+    width: 61px;
+    height: 3px;
+    content: '';
+    background-color: rgb(243, 129, 129);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+section {
+    width: 320px;
+    }
+.work{
+    text-transform: uppercase;
+}
+.who {
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-size: 21px;
+    font-style: italic;
+    font-family: lobster;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.who::first-letter {
+    text-transform: uppercase;
+}
+
+.our-team {
+    font-family: Montserrat;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.our-team::after {
+    display: block;
+    width: 61px;
+    height: 3px;
+    content: '';
+    background-color: rgb(243, 129, 129);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+.description{
+    margin-bottom: 92px;
+}
+.team {
+    display: flex;
+}
+
+.team-item {
+    list-style: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.background:hover {
+    transform: translate(-10px, -10px);
+    transition-duration: 200ms linear;
+}
+
+
+.abra {
+    background-color: rgb(149, 225, 211);
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.facebook {
+    list-style: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid rgb(252, 227, 138);
+    background-color: rgb(252, 227, 138);
+    padding: 0;
+    margin: 0;
+}
+
+.facebook:hover {
+    background-color: rgb(149, 225, 211);
+    transition-duration: 200ms linear;
+}
+
+.facebook-image {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.twitter {
+    list-style: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid rgb(252, 227, 138);
+    background-color: rgb(252, 227, 138);
+    padding: 0;
+    margin: 0;
+}
+
+.twitter:hover {
+    background-color: rgb(149, 225, 211);
+    transition-duration: 200ms linear;
+}
+
+.twitter-image {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.pinterest {
+    list-style: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid rgb(252, 227, 138);
+    background-color: rgb(252, 227, 138);
+    padding: 0;
+    margin: 0;
+}
+
+.pinterest:hover {
+    background-color: rgb(149, 225, 211);
+    transition-duration: 200ms linear;
+}
+
+.pinterest-image {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.instagram {
+    list-style: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid rgb(252, 227, 138);
+    background-color: rgb(252, 227, 138);
+    padding: 0;
+    margin: 0;
+}
+
+.instagram:hover {
+    background-color: rgb(149, 225, 211);
+    transition-duration: 200ms linear ;
+}
+
+.instagram-image {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(153, 153, 153);
+}
+
+.name {
+    text-transform: uppercase;
+    font-family: Montserat;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.position {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.position::first-letter {
+    text-transform: uppercase;
+}
+
+.ux {
+    text-transform: uppercase;
+}
+
+.click {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(149, 225, 211);
+    border: 1 px solid rgb(149, 225, 211);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Montserat;
+    font-size: 14px;
+}
+
+.another-color {
+    color: rgb(243, 129, 129);
+}
+
+.main-footer::before {
+    display: block;
+    width: 1201px;
+    height: 2px;
+    content: "";
+    background-color: rgb(229, 229, 229);
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.main-footer {}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+}
